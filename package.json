@@ -26,6 +26,7 @@
     "slick-carousel": "1.8.1"
   },
   "devDependencies": {
+    "pnpm": "6.x",
     "eslint-config-airbnb": "18.2.1",
     "eslint-config-prettier": "8.1.0",
     "eslint-plugin-prettier": "3.3.1",
@@ -36,6 +37,8 @@
     "react-scripts": "4.0.3"
   },
   "scripts": {
+    
+    "install": "pnpm install --no-frozen-lockfile",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
